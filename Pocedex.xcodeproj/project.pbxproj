@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		431026411E6E0F93009BA61B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431026401E6E0F93009BA61B /* AppDelegate.swift */; };
+		431026431E6E0F93009BA61B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431026421E6E0F93009BA61B /* ViewController.swift */; };
+		431026461E6E0F93009BA61B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 431026441E6E0F93009BA61B /* Main.storyboard */; };
+		431026481E6E0F93009BA61B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 431026471E6E0F93009BA61B /* Assets.xcassets */; };
+		4310264B1E6E0F93009BA61B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 431026491E6E0F93009BA61B /* LaunchScreen.storyboard */; };
+		431026561E6E0F94009BA61B /* PocedexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431026551E6E0F94009BA61B /* PocedexTests.swift */; };
+		431026611E6E0F94009BA61B /* PocedexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431026601E6E0F94009BA61B /* PocedexUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		431026521E6E0F94009BA61B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 431026351E6E0F93009BA61B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4310263C1E6E0F93009BA61B;
+			remoteInfo = Pocedex;
+		};
+		4310265D1E6E0F94009BA61B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 431026351E6E0F93009BA61B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4310263C1E6E0F93009BA61B;
+			remoteInfo = Pocedex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4310263D1E6E0F93009BA61B /* Pocedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pocedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		431026401E6E0F93009BA61B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		431026421E6E0F93009BA61B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		431026451E6E0F93009BA61B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		431026471E6E0F93009BA61B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4310264A1E6E0F93009BA61B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4310264C1E6E0F93009BA61B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		431026511E6E0F94009BA61B /* PocedexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocedexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		431026551E6E0F94009BA61B /* PocedexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocedexTests.swift; sourceTree = "<group>"; };
+		431026571E6E0F94009BA61B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4310265C1E6E0F94009BA61B /* PocedexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocedexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		431026601E6E0F94009BA61B /* PocedexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocedexUITests.swift; sourceTree = "<group>"; };
+		431026621E6E0F94009BA61B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4310263A1E6E0F93009BA61B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4310264E1E6E0F94009BA61B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		431026591E6E0F94009BA61B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		431026341E6E0F93009BA61B = {
+			isa = PBXGroup;
+			children = (
+				4310263F1E6E0F93009BA61B /* Pocedex */,
+				431026541E6E0F94009BA61B /* PocedexTests */,
+				4310265F1E6E0F94009BA61B /* PocedexUITests */,
+				4310263E1E6E0F93009BA61B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4310263E1E6E0F93009BA61B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4310263D1E6E0F93009BA61B /* Pocedex.app */,
+				431026511E6E0F94009BA61B /* PocedexTests.xctest */,
+				4310265C1E6E0F94009BA61B /* PocedexUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4310263F1E6E0F93009BA61B /* Pocedex */ = {
+			isa = PBXGroup;
+			children = (
+				431026401E6E0F93009BA61B /* AppDelegate.swift */,
+				431026421E6E0F93009BA61B /* ViewController.swift */,
+				431026441E6E0F93009BA61B /* Main.storyboard */,
+				431026471E6E0F93009BA61B /* Assets.xcassets */,
+				431026491E6E0F93009BA61B /* LaunchScreen.storyboard */,
+				4310264C1E6E0F93009BA61B /* Info.plist */,
+			);
+			path = Pocedex;
+			sourceTree = "<group>";
+		};
+		431026541E6E0F94009BA61B /* PocedexTests */ = {
+			isa = PBXGroup;
+			children = (
+				431026551E6E0F94009BA61B /* PocedexTests.swift */,
+				431026571E6E0F94009BA61B /* Info.plist */,
+			);
+			path = PocedexTests;
+			sourceTree = "<group>";
+		};
+		4310265F1E6E0F94009BA61B /* PocedexUITests */ = {
+			isa = PBXGroup;
+			children = (
+				431026601E6E0F94009BA61B /* PocedexUITests.swift */,
+				431026621E6E0F94009BA61B /* Info.plist */,
+			);
+			path = PocedexUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4310263C1E6E0F93009BA61B /* Pocedex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 431026651E6E0F94009BA61B /* Build configuration list for PBXNativeTarget "Pocedex" */;
+			buildPhases = (
+				431026391E6E0F93009BA61B /* Sources */,
+				4310263A1E6E0F93009BA61B /* Frameworks */,
+				4310263B1E6E0F93009BA61B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pocedex;
+			productName = Pocedex;
+			productReference = 4310263D1E6E0F93009BA61B /* Pocedex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		431026501E6E0F94009BA61B /* PocedexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 431026681E6E0F94009BA61B /* Build configuration list for PBXNativeTarget "PocedexTests" */;
+			buildPhases = (
+				4310264D1E6E0F94009BA61B /* Sources */,
+				4310264E1E6E0F94009BA61B /* Frameworks */,
+				4310264F1E6E0F94009BA61B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				431026531E6E0F94009BA61B /* PBXTargetDependency */,
+			);
+			name = PocedexTests;
+			productName = PocedexTests;
+			productReference = 431026511E6E0F94009BA61B /* PocedexTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4310265B1E6E0F94009BA61B /* PocedexUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4310266B1E6E0F94009BA61B /* Build configuration list for PBXNativeTarget "PocedexUITests" */;
+			buildPhases = (
+				431026581E6E0F94009BA61B /* Sources */,
+				431026591E6E0F94009BA61B /* Frameworks */,
+				4310265A1E6E0F94009BA61B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4310265E1E6E0F94009BA61B /* PBXTargetDependency */,
+			);
+			name = PocedexUITests;
+			productName = PocedexUITests;
+			productReference = 4310265C1E6E0F94009BA61B /* PocedexUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		431026351E6E0F93009BA61B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Yana Docheva";
+				TargetAttributes = {
+					4310263C1E6E0F93009BA61B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ATNMH2J4W8;
+						ProvisioningStyle = Automatic;
+					};
+					431026501E6E0F94009BA61B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ATNMH2J4W8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4310263C1E6E0F93009BA61B;
+					};
+					4310265B1E6E0F94009BA61B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ATNMH2J4W8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4310263C1E6E0F93009BA61B;
+					};
+				};
+			};
+			buildConfigurationList = 431026381E6E0F93009BA61B /* Build configuration list for PBXProject "Pocedex" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 431026341E6E0F93009BA61B;
+			productRefGroup = 4310263E1E6E0F93009BA61B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4310263C1E6E0F93009BA61B /* Pocedex */,
+				431026501E6E0F94009BA61B /* PocedexTests */,
+				4310265B1E6E0F94009BA61B /* PocedexUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4310263B1E6E0F93009BA61B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4310264B1E6E0F93009BA61B /* LaunchScreen.storyboard in Resources */,
+				431026481E6E0F93009BA61B /* Assets.xcassets in Resources */,
+				431026461E6E0F93009BA61B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4310264F1E6E0F94009BA61B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4310265A1E6E0F94009BA61B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		431026391E6E0F93009BA61B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				431026431E6E0F93009BA61B /* ViewController.swift in Sources */,
+				431026411E6E0F93009BA61B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4310264D1E6E0F94009BA61B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				431026561E6E0F94009BA61B /* PocedexTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		431026581E6E0F94009BA61B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				431026611E6E0F94009BA61B /* PocedexUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		431026531E6E0F94009BA61B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4310263C1E6E0F93009BA61B /* Pocedex */;
+			targetProxy = 431026521E6E0F94009BA61B /* PBXContainerItemProxy */;
+		};
+		4310265E1E6E0F94009BA61B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4310263C1E6E0F93009BA61B /* Pocedex */;
+			targetProxy = 4310265D1E6E0F94009BA61B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		431026441E6E0F93009BA61B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				431026451E6E0F93009BA61B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		431026491E6E0F93009BA61B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4310264A1E6E0F93009BA61B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		431026631E6E0F94009BA61B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		431026641E6E0F94009BA61B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		431026661E6E0F94009BA61B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ATNMH2J4W8;
+				INFOPLIST_FILE = Pocedex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DochevaYana.Pocedex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		431026671E6E0F94009BA61B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ATNMH2J4W8;
+				INFOPLIST_FILE = Pocedex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DochevaYana.Pocedex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		431026691E6E0F94009BA61B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ATNMH2J4W8;
+				INFOPLIST_FILE = PocedexTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DochevaYana.PocedexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pocedex.app/Pocedex";
+			};
+			name = Debug;
+		};
+		4310266A1E6E0F94009BA61B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ATNMH2J4W8;
+				INFOPLIST_FILE = PocedexTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DochevaYana.PocedexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pocedex.app/Pocedex";
+			};
+			name = Release;
+		};
+		4310266C1E6E0F94009BA61B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ATNMH2J4W8;
+				INFOPLIST_FILE = PocedexUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DochevaYana.PocedexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Pocedex;
+			};
+			name = Debug;
+		};
+		4310266D1E6E0F94009BA61B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ATNMH2J4W8;
+				INFOPLIST_FILE = PocedexUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DochevaYana.PocedexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Pocedex;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		431026381E6E0F93009BA61B /* Build configuration list for PBXProject "Pocedex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				431026631E6E0F94009BA61B /* Debug */,
+				431026641E6E0F94009BA61B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		431026651E6E0F94009BA61B /* Build configuration list for PBXNativeTarget "Pocedex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				431026661E6E0F94009BA61B /* Debug */,
+				431026671E6E0F94009BA61B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		431026681E6E0F94009BA61B /* Build configuration list for PBXNativeTarget "PocedexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				431026691E6E0F94009BA61B /* Debug */,
+				4310266A1E6E0F94009BA61B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4310266B1E6E0F94009BA61B /* Build configuration list for PBXNativeTarget "PocedexUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4310266C1E6E0F94009BA61B /* Debug */,
+				4310266D1E6E0F94009BA61B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 431026351E6E0F93009BA61B /* Project object */;
+}
