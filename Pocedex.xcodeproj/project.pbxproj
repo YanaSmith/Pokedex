@@ -20,6 +20,7 @@
 		432D26B31E7249AB00F49D06 /* PokemonFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 432D26B21E7249AB00F49D06 /* PokemonFont.ttf */; };
 		432D26B61E724BF300F49D06 /* music.png in Resources */ = {isa = PBXBuildFile; fileRef = 432D26B51E724BF300F49D06 /* music.png */; };
 		432D26FA1E73903100F49D06 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 432D26F91E73903100F49D06 /* music.mp3 */; };
+		432D26FC1E75D89400F49D06 /* PokemonDatailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432D26FB1E75D89400F49D06 /* PokemonDatailVC.swift */; };
 		4362503B1E71FB4100AFADF9 /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4362503A1E71FB4100AFADF9 /* PokeCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,7 @@
 		432D26B21E7249AB00F49D06 /* PokemonFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PokemonFont.ttf; sourceTree = "<group>"; };
 		432D26B51E724BF300F49D06 /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music.png; sourceTree = "<group>"; };
 		432D26F91E73903100F49D06 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		432D26FB1E75D89400F49D06 /* PokemonDatailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDatailVC.swift; sourceTree = "<group>"; };
 		4362503A1E71FB4100AFADF9 /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -182,6 +184,7 @@
 			children = (
 				431026421E6E0F93009BA61B /* ViewController.swift */,
 				431026401E6E0F93009BA61B /* AppDelegate.swift */,
+				432D26FB1E75D89400F49D06 /* PokemonDatailVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4362503B1E71FB4100AFADF9 /* PokeCell.swift in Sources */,
+				432D26FC1E75D89400F49D06 /* PokemonDatailVC.swift in Sources */,
 				431026431E6E0F93009BA61B /* ViewController.swift in Sources */,
 				431026411E6E0F93009BA61B /* AppDelegate.swift in Sources */,
 				432D26B01E72385F00F49D06 /* csv1.swift in Sources */,
