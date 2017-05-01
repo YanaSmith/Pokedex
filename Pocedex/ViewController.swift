@@ -179,6 +179,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             
             filteredPokemon = pokemon.filter({$0.name.lowercased().hasPrefix(lower!) })
             collection.reloadData()
+            
         }
     }
     
